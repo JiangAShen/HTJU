@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.idea/workspace.xml
+.idea/shelf/
+
+# Experiment data (large binary files — download separately)
+experiments/*/data/**
+
+# Training outputs
+*.pth
+*.pt
+*.ckpt
+checkpoints/
+logs/
+runs/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
