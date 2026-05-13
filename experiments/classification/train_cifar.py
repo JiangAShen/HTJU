@@ -50,7 +50,7 @@ def get_args():
 HTJU_CONFIGS = {
     'cifar10': {
         'model': 'resnet18',
-        't_lr': 5e-3,
+        't_lr': 1e-3,
         'h_lr': 1e-2,
         't_weight_decay': 1e-1,  # Fixed: paper Table 6 says 1e-3(t)
         'h_weight_decay': 1e-3,
